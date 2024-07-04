@@ -36,6 +36,40 @@ router.post('/', (req, res) => {
     writeProducts(products);
     res.status(201).json(payload);
 
-})
+});
+
+router.get('/:pid', (req, res) => {
+    const products = readProducts();
+    const data = products.find(p => p.id === req.params.pid);
+    if (data) {
+        res.json(data);
+    } else {
+        res.status(404).send('Product not found');
+    }
+});
+
+router.put('/:pid', (req, res) => {
+    const products = readProducts();
+    const data = products.findIndex(p => p.id === req.params.pid);
+    if (data !== -1) {
+        const obj = products.find(p => p.id === req.params.pid);
+        const updatedProduct = {
+            id: obj.id,
+            title: req.body?.title ? req.body.title : obj.title,
+            description: req.body?.description ? req.body.description : obj.description,
+            code: req.body?.code ? req.body.code : obj.code,
+            price: req.body?.price ? req.body.price : obj.price,
+            status: req.body?.status ? req.body.status : obj.status,
+            stock: req.body?.stock ? req.body.stock : obj.stock,
+            category: req.body?.category ? req.body.category : obj.category,
+            thumbnails: req.body?.thumbnails ? req.body.thumbnails : obj.thumbnails,
+        };
+        products[data] = updatedProduct;
+        writeProducts(products);
+        res.status(200).json(updatedProduct);
+    } else {
+        res.status(404).send('Product not found');
+    }
+});
 
 module.exports = router;
