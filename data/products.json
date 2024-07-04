@@ -1,0 +1,16 @@
+[
+  {
+    "id": "b39fd6416ea59b1243302b858dfa34d2",
+    "title": "Patines de Velocidad",
+    "description": "Patines de velocidad con botas de carbono y ruedas de 110 mm",
+    "code": "SK1001",
+    "price": 350,
+    "status": true,
+    "stock": 10,
+    "category": "Patines",
+    "thumbnails": [
+      "https://example.com/images/sk1001_1.jpg",
+      "https://example.com/images/sk1001_2.jpg"
+    ]
+  }
+]
