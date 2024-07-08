@@ -29,4 +29,22 @@ router.post('/', (req, res) => {
     res.status(201).json(newCart);
 });
 
+router.post('/:cid/product/:pid', (req, res) => {
+    const { pid, cid } = req.params;
+    const carts = readCarts();
+    const cart = carts.find(c => c.id === cid);
+    if (!cart) {
+        return res.status(404).send('Cart not found');
+    }
+
+    const productIndex = cart.products.findIndex(p => p.product === pid);
+    if (productIndex !== -1) {
+        cart.products[productIndex].quantity += 1;
+    } else {
+        cart.products.push({ product: pid, quantity: 1 });
+    }
+    writeCarts(carts);
+    res.status(201).json(cart);
+});
+
 module.exports = router;
