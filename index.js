@@ -5,7 +5,7 @@ const cartsRouter = require('./routes/carts');
 
 app.use(express.json());
 app.use('/api/products', productsRouter);
-app.use('/api/carts', cartsRouter);
+//app.use('/api/carts', cartsRouter);
 
 const PORT = 8080;
 app.listen(PORT, () => {
