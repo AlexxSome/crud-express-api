@@ -26,5 +26,117 @@
       "https://example.com/images/sk1001_1.jpg",
       "https://example.com/images/sk1001_2.jpg"
     ]
+  },
+  {
+    "id": "8045896033895daffbf341dfbb60b2be",
+    "title": "Patines de Velocidad",
+    "description": "Patines de velocidad con botas de carbono y ruedas de 110 mm",
+    "code": "SK1001",
+    "price": 350,
+    "status": true,
+    "stock": 10,
+    "category": "Patines",
+    "thumbnails": [
+      "https://example.com/images/sk1001_1.jpg",
+      "https://example.com/images/sk1001_2.jpg"
+    ]
+  },
+  {
+    "id": "884a9d88b947d401df0e50c246525204",
+    "title": "Patines de Velocidad",
+    "description": "Patines de velocidad con botas de carbono y ruedas de 110 mm",
+    "code": "SK1001",
+    "price": 350,
+    "status": true,
+    "stock": 10,
+    "category": "Patines",
+    "thumbnails": [
+      "https://example.com/images/sk1001_1.jpg",
+      "https://example.com/images/sk1001_2.jpg"
+    ]
+  },
+  {
+    "id": "0c2cf909d789511ba9fa329f1414f9c9",
+    "title": "Patines de Velocidad",
+    "description": "Patines de velocidad con botas de carbono y ruedas de 110 mm",
+    "code": "SK1001",
+    "price": 350,
+    "status": true,
+    "stock": 10,
+    "category": "Patines",
+    "thumbnails": [
+      "https://example.com/images/sk1001_1.jpg",
+      "https://example.com/images/sk1001_2.jpg"
+    ]
+  },
+  {
+    "id": "c572e45443b6ce33df82c67939687144",
+    "title": "Patines de Velocidad",
+    "description": "Patines de velocidad con botas de carbono y ruedas de 110 mm",
+    "code": "SK1001",
+    "price": 350,
+    "status": true,
+    "stock": 10,
+    "category": "Patines",
+    "thumbnails": [
+      "https://example.com/images/sk1001_1.jpg",
+      "https://example.com/images/sk1001_2.jpg"
+    ]
+  },
+  {
+    "id": "3bae10403cf7f27420d5acb1dd5ed0ab",
+    "title": "Patines de Velocidad",
+    "description": "Patines de velocidad con botas de carbono y ruedas de 110 mm",
+    "code": "SK1001",
+    "price": 350,
+    "status": true,
+    "stock": 10,
+    "category": "Patines",
+    "thumbnails": [
+      "https://example.com/images/sk1001_1.jpg",
+      "https://example.com/images/sk1001_2.jpg"
+    ]
+  },
+  {
+    "id": "5af68ae7dc146bdc315e5d3972b37039",
+    "title": "Patines de Velocidad",
+    "description": "Patines de velocidad con botas de carbono y ruedas de 110 mm",
+    "code": "SK1001",
+    "price": 350,
+    "status": true,
+    "stock": 10,
+    "category": "Patines",
+    "thumbnails": [
+      "https://example.com/images/sk1001_1.jpg",
+      "https://example.com/images/sk1001_2.jpg"
+    ]
+  },
+  {
+    "id": "e9e484203c124c0b9d4a28ab48b4f145",
+    "title": "Patines de Velocidad",
+    "description": "Patines de velocidad con botas de carbono y ruedas de 110 mm",
+    "code": "SK1001",
+    "price": 350,
+    "status": true,
+    "stock": 10,
+    "category": "Patines",
+    "thumbnails": [
+      "https://example.com/images/sk1001_1.jpg",
+      "https://example.com/images/sk1001_2.jpg"
+    ]
+  },
+  {
+    "id": "2472290ecead7feb9e12453716fb163a",
+    "title": "Patines de Velocidad",
+    "description": "Patines de velocidad con botas de carbono y ruedas de 110 mm",
+    "code": "SK1001",
+    "price": 350,
+    "status": true,
+    "stock": 10,
+    "category": "Patines",
+    "thumbnails": [
+      "https://example.com/images/sk1001_1.jpg",
+      "https://example.com/images/sk1001_2.jpg"
+    ]
   }
 ]
