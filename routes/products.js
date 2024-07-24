@@ -95,7 +95,7 @@ module.exports = (io) => {
         products.splice(productIndex, 1);
         writeProducts(products);
         res.status(200).send();
-        io.emit('updateProducts')
+        io.emit('delete Product')
         // io.emit('updateProducts', products);
     });
 

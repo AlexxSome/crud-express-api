@@ -138,5 +138,75 @@
       "https://example.com/images/sk1001_1.jpg",
       "https://example.com/images/sk1001_2.jpg"
     ]
+  },
+  {
+    "id": "4bdec7fd3cdc7eadaef8981b96caadc7",
+    "title": "Patines de Velocidad",
+    "description": "Patines de velocidad con botas de carbono y ruedas de 110 mm",
+    "code": "SK1001",
+    "price": 350,
+    "status": true,
+    "stock": 10,
+    "category": "Patines",
+    "thumbnails": [
+      "https://example.com/images/sk1001_1.jpg",
+      "https://example.com/images/sk1001_2.jpg"
+    ]
+  },
+  {
+    "id": "5bed57f8d320d4df1047f28f8b958194",
+    "title": "Patines de Velocidad",
+    "description": "Patines de velocidad con botas de carbono y ruedas de 110 mm",
+    "code": "SK1001",
+    "price": 350,
+    "status": true,
+    "stock": 10,
+    "category": "Patines",
+    "thumbnails": [
+      "https://example.com/images/sk1001_1.jpg",
+      "https://example.com/images/sk1001_2.jpg"
+    ]
+  },
+  {
+    "id": "374e0fd0033f77188b17b7db218673cc",
+    "title": "Patines de Velocidad",
+    "description": "Patines de velocidad con botas de carbono y ruedas de 110 mm",
+    "code": "SK1001",
+    "price": 350,
+    "status": true,
+    "stock": 10,
+    "category": "Patines",
+    "thumbnails": [
+      "https://example.com/images/sk1001_1.jpg",
+      "https://example.com/images/sk1001_2.jpg"
+    ]
+  },
+  {
+    "id": "f8a29b5db9f95bf8c75c5b98c8ca526d",
+    "title": "Patines de Velocidad",
+    "description": "Patines de velocidad con botas de carbono y ruedas de 110 mm",
+    "code": "SK1001",
+    "price": 350,
+    "status": true,
+    "stock": 10,
+    "category": "Patines",
+    "thumbnails": [
+      "https://example.com/images/sk1001_1.jpg",
+      "https://example.com/images/sk1001_2.jpg"
+    ]
+  },
+  {
+    "id": "07338d95fda00659fc0c9559815c3355",
+    "title": "Patines de Velocidad",
+    "description": "Patines de velocidad con botas de carbono y ruedas de 110 mm",
+    "code": "SK1001",
+    "price": 350,
+    "status": true,
+    "stock": 10,
+    "category": "Patines",
+    "thumbnails": [
+      "https://example.com/images/sk1001_1.jpg",
+      "https://example.com/images/sk1001_2.jpg"
+    ]
   }
 ]
